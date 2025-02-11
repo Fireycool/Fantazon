@@ -1,0 +1,14 @@
+{
+    "name": "rock/fantazon",
+    "description": "Configuracion de composer para el proyecto",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rock"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "paypal/rest-api-sdk-php": "^1.14"
+    }
+}

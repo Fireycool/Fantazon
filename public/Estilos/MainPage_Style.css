@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Ringbearer;
+    src: url(../Estilos/Fonts/Ringbearer.TTF);
+}
+
+@font-face {
+    font-family: Balgruf;
+    src: url(../Estilos/Fonts/Balgruf.ttf);
+}
+
+/* Cuerpo */
+body {
+    background-color: #29241e; 
+    color: #ffffff;
+    font-family: Balgruf;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    background-color: #423929; 
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #363636; 
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: bottom;
+}
+
+
+/* Logo */
+.logo {
+    margin-bottom: 0;
+    color: #dba642; 
+    font-family: Ringbearer;
+    padding-left: 20px;
+}
+.logo-link:hover {
+    color: #dba642;
+}
+
+
+/* Busqueda */
+.form-inline {
+    margin-top: 10px;
+}
+
+.form-control {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-search {
+    width: 100% !important;
+    max-width: 400px !important;
+}
+
+@media (max-width: 576px) {
+    .custom-search {
+        max-width: 300px !important;
+    }
+}
+
+
+/* Barra de Navegacion */
+nav {
+    background-color: #5c5c39; 
+}
+
+/* Links */
+.nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    transition: color 0.3s; 
+}
+
+.nav-link:hover {
+    color: #dba642; 
+}
+
+
+/* Productos */
+.producto-destacado,
+.producto-listado,
+.login,
+.registration,
+.contenido {
+    background-color: #4a4237; 
+    color: #d49c34;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: #4a4237; 
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Botones */
+.btn {
+    background-color: #5c5c39; 
+    color: #ffffff;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.btn-outline-light {
+    color: #ffffff;
+}
+.btn-outline-light:hover {
+    background-color: #ffffff; 
+
+}
+
+.btn-outline-warning {
+    color: #212529;
+    background-color: #d4e250;
+    font-weight: bold;
+}
+
+.btn-outline-warning:hover {
+    background-color: #88922f; 
+
+}
+
+/* Cards */
+.card {
+    background-color: #3d352c; 
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    display: inline-block; 
+    margin-right: 15px;
+    margin-bottom: 15px; 
+}
+
+.card-link {
+    color: #ffffff;
+}
+
+.card-link:hover {
+    color: #ffffff;
+}
+
+.card-deck-container {
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+.card-img-top {
+    max-height: 300px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+  }
+  
+.img-fluid{
+    max-height: 300px;
+    max-width: 400px;
+}
+
+.video{
+    max-height: 300px;
+
+    display: block;
+    margin: auto;
+}
+
+.funky-text{
+    color: #d49c34;
+    font-style: italic;
+}
+
+.unfunky-text{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.card-comment-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+.chatcard{
+    flex-wrap: wrap;
+    display: block;
+    margin:auto;
+}
+
+.initial{
+    background-color: #4e4337; 
+    text-align: right;
+}
+
